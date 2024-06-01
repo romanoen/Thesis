@@ -1,0 +1,12 @@
+Hi Janina, 
+
+Ich hab jetzt schon mal so ein bisschen mit den LLMs rumprobiert und eigentlich hatte ich im Expose ja GPT Llama2 und Gemini vorgeschlagen
+
+Ich bin aber erstens zu der Auffassung gekommen dass llama2 7b ziemlich schlecht ist und eigentlich fast unbenutzbar, deshalb würde ich gerne Llama3 8b nutzen, das soll wohl recht vergleichbar sein mit gpt3.5, worauf ja euer Datensatz auch basiert. Das gab es nur bei Erstellung des Exposés noch nicht.
+
+Und das Problem bei Gemini ist so ein bisschen dass die API aktuell in Europa kostenpflichtig ist und es nur in den USA kostenfreie APIs gibt. Man kann das  mit VPNs umgehen, ist aber recht kompliziert. Ich hab mir stattdessen mal noch Mixtral angeschaut und das wäre in der 7b Variante genau wie Llama auf dem Server ausführbar. Ist ja auch ähnlich (-1b). Das wurde ja von MistralAI gemacht, die aus Frankreich kommen. Wäre sicher auch interessant da noch ein europäisches Modell drin zu haben zum Vergleich. Ich wollte einfach mal kurz nachfragen ob das so auch in Ordnung wäre dann. 
+
+Ausserdem wollte ich fragen welchen Beispieltweet ihr genutzt habt für den Prompt aus dem Paper, weil das steht da nicht. Denn das ganze macht ja eigentlich nur Sinn wenn man die selben Prompts verwendet. 
+
+Viele Grüße,
+Roman

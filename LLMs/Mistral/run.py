@@ -19,7 +19,13 @@ def main():
 
     #create an array of prompts from all original tweets
     original_tweets = [entry['tweets'] for entry in original_data]
-    prompts = [f"Generate one tweet similar to the following ones, especially try to recreate the tone and style of the tweets. It should be between 30 and 150 tokens in length and reflect the topic of the tweets. Mimic the usage of hashtags (#), user mentions (@), emojis and URLs from the originals exactly as possible: {tweet}" for tweet in original_tweets]
+    prompts = [f"Generate one tweet similar to the following ones,
+especially try to recreate the tone and style of the
+tweets. It should be between 30 and 150 tokens in
+length and reflect the topic of the tweets. Mimic
+the usage of hashtags (#), user mentions (@),
+emojis and URLs from the originals exactly as
+possible: {tweet}" for tweet in original_tweets]
 
     #create 10000 artificial tweets to balance it
     num_lines = len(prompts)

@@ -1,6 +1,9 @@
 # Ignore Jupyter Notebook Checkpoints
 .ipynb_checkpoints/
 
-# Ignore Python Cache Dateien
+# Ignore Python Cache Data
 __pycache__/
 *.py[cod]
+
+#Ignore DS-Store
+.DS_Store

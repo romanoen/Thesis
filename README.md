@@ -15,6 +15,8 @@ This directory contains all the data sets that are used to train the models. Whi
   #### Generated Datasets:
   This repository contains all the datasets described above. responsesLlama.csv and responsesMistral.csv had been created by myself using capacities of the university. 
 
+------------------------------------
+
 ### evaluation: 
 This directory contains all the measurements used to analyze the models. Graphics  and charts that are cited in the written part from this repository can be found here. 
   #### GPT35_Evaluation
@@ -26,12 +28,16 @@ This directory contains all the measurements used to analyze the models. Graphic
   #### Mistral_Evaluation
   Contains measurements about the Mistral dataset.
 
+------------------------------------
+
 ### LLMs
 In this directory, the Large-Language-Models Llama3 and Mistral are deployed and executed. When executing the run files, it should be ensured that a sufficient graphics card is available, as the code is optimised for this and these models do not actually run without a graphics card. The datasets that are created are stored directly in the datasets directory.
   #### Llama3
   Contains the code for executing the Llama3 model locally. 
   #### Mistral
   Contains the code for executing the Mistral model locally. 
+
+------------------------------------
 
 ### model
 The model directory contains the implementation of each classifier. Each classifier is applied on each dataset individually as well as the ensemble models. The evaluation metrics are stored directly in the evaluation directory. The ensemble models just load the classifiers from the pickle directory, therefore, no additional computation is needed to run them.
@@ -45,7 +51,8 @@ The model directory contains the implementation of each classifier. Each classif
   Contains the random forest models for each data set.
   #### SupportVectorMachine
   Contains the support vector machine models for each data set.
-  
+
+------------------------------------
 
 ### preprocessing
 This directory contains the files to preprocess each data-set. Each prepared data-set is stored in the storePreprocess subdirectory. 

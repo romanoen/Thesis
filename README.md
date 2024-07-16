@@ -19,6 +19,8 @@ This directory contains all the data sets that are used to train the models. Whi
 
 ### evaluation: 
 This directory contains all the measurements used to analyze the models. Graphics  and charts that are cited in the written part from this repository can be found here. 
+  #### Cross-Validation
+  Contains measurements about the Cross Validation procedure.
   #### GPT35_Evaluation
   Contains measurements about the GPT 3.5 dataset.
   #### GPTNeo_Evaluation
@@ -41,7 +43,7 @@ In this directory, the Large-Language-Models Llama3 and Mistral are deployed and
 
 ### model
 The model directory contains the implementation of each classifier. Each classifier is applied on each dataset individually as well as the ensemble models. The evaluation metrics are stored directly in the evaluation directory. The ensemble models just load the classifiers from the pickle directory, therefore, no additional computation is needed to run them.
-  ### CrossValidation
+  #### CrossValidation
   Contains the Cross-Validation-models for each data set. This means each pre-trained model is applied on each data-set. The particularity here is that each pre-trained model has been trained on 100% of the available training data.
   #### Ensemble
   Contains the ensemble-models for each data set.
